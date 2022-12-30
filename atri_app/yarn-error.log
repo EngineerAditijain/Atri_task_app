@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Users\paras\.atri\webapp-builder-win.exe.v0.0.88 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\paras\.virtualenvs\demo-atri-app-d4btCCF7\Scripts;"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\paras\AppData\Roaming\npm";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\paras\AppData\Local\Android\Sdk;C:\Program Files\Java\jdk1.8.0_202;C:\Users\paras\AppData\Roaming\npm;"C:\Users\paras\AppData\Roaming\npm;";C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\Users\paras\AppData\Local\Android\Sdk\platform-tools;C:\Users\paras\AppData\Local\Android\Sdk\emulator;C:\Users\paras\whatsapp\server\node_modules\babel-cli\bin;C:\Program Files\nodejs\;C:\Users\paras\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\paras\AppData\Local\Programs\Python\Python311\;C:\Users\paras\AppData\Roaming\Python\Python310\Scripts;C:\Users\paras\AppData\Local\Programs\Python\Python310\;C:\Users\paras\AppData\Local\Microsoft\WindowsApps;C:\Users\paras\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\paras\AppData\Local\Programs\MiKTeX\miktex\bin\x64\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'C:\Users\paras\AppData\Local\Yarn\Cache\v6\npm-caniuse-lite-1.0.30001441-987437b266260b640a23cd18fbddb509d7f69f3e-integrity\node_modules\caniuse-lite\.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.88",
+      "@atrilabs/core": "^0.0.88",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.88"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
